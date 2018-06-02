@@ -42,9 +42,37 @@ body {
 }
 
 /* set styles for submit button */
-.btn.btn-primary.btn-block {
-  font-size: 25px;
+.login_button {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.85px;
+  border: none;
 }
+
+/* set styles for username and password fields */
+#username_field,
+#password_field {
+  /* remove standard borders on form fields, except for the bottom one */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #A7C9E2;
+  /* remove the standard box shadow on input fields */
+  box-shadow: none;
+  border-radius: 0;
+  padding: 6px 0;
+  /* set custom margins on username_field. looks like it's 15px by default */
+  margin-bottom: 30px;
+}
+
+/* set custom styles for placeholder text  */
+#username_field::placeholder,
+#password_field::placeholder {
+  font-size: 15px;
+  color: #ff8362;
+  font-family: Verdana;
+}
+
 
 /* media queries */
 @media (min-width: 768px) {
