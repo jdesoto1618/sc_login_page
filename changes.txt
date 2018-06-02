@@ -1,6 +1,4 @@
-use this background:
 
-background: #F5F6F7
 
 Also, note all borders were set to have rounded edges, but no visible border
 For input fields, they were given a soft glow and a shadow underneath
