@@ -1,6 +1,7 @@
-/* set background color of login page */
+/* set background styles */
 body {
   background: #F5F6F7;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* set styles for container div */
@@ -15,11 +16,34 @@ body {
 /* set styles for page title */
 #page_title {
   margin-bottom: 50px;
+  /* larger than life */
+  font-size: 40px;
+  /* heavier than life */
+  font-weight: bold
+}
+
+/* set styles for the words smart in the page title */
+.sc_smart {
+  color: #3C5FA6;
+}
+
+/* set styles for the words cover in the page title */
+.sc_cover {
+  color: green;
+}
+
+.copywrite {
+  font-size: 12px;
 }
 
 /* set styles for input labels */
 .form-group>.text-center {
   font-size: 20px;
+}
+
+/* set styles for submit button */
+.btn.btn-primary.btn-block {
+  font-size: 25px;
 }
 
 /* media queries */
