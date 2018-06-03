@@ -7,9 +7,8 @@ body {
 /* set styles for container div */
 .container {
   background: #fff;
-  margin: 10%;
   /* set custom padding to extend div */
-  padding: 0 15px 300px;
+  padding: 0 15px 25px;
   border-radius: 4px;
 }
 
@@ -75,10 +74,22 @@ body {
 }
 
 
-/* media queries */
-@media (min-width: 768px) {
+/* media queries for tablet or larger screens */
+@media (min-width: 700px) {
   .container {
-    /* set the width to be inherited. otherwise, a default width overrides and causes problems */
-    width: inherit;
+    /* set a max width for bigger screens. the bigger screens have room, change width of containerdiv to 70% */
+    max-width: 70%;
+    /* on larger screens, adjust top margin and set other parameter to auto to keep the div centered */
+    margin: 7.5% auto;
+  }
+}
+
+/* media queries for mobile. this is for any screen smaller than 700px */
+@media (max-width: 699px) {
+  .container {
+    /* change container max width to 90%. need to use most of the screen available... not needed for bigger screens */
+    max-width: 90%;
+    /* set margins for mobile. gives the top some room and some on the left and right sides */
+    margin: 10% 5%;
   }
 }
