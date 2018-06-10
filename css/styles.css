@@ -21,16 +21,17 @@ body {
   font-weight: bold
 }
 
-/* set styles for the words smart in the page title */
+/* set styles for the word 'Smart' in the page title */
 .sc_smart {
   color: #3C5FA6;
 }
 
-/* set styles for the words cover in the page title */
+/* set styles for the word 'Cover' in the page title */
 .sc_cover {
   color: green;
 }
 
+/* set copywrite size */
 .copywrite {
   font-size: 12px;
 }
@@ -77,7 +78,7 @@ body {
 /* media queries for tablet or larger screens */
 @media (min-width: 700px) {
   .container {
-    /* set a max width for bigger screens. the bigger screens have room, change width of containerdiv to 70% */
+    /* set a max width for bigger screens. the bigger screens have room, change width of container div to 70% */
     max-width: 70%;
     /* on larger screens, adjust top margin and set other parameter to auto to keep the div centered */
     margin: 7.5% auto;
